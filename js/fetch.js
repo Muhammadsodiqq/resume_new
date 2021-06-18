@@ -11,7 +11,7 @@
         }
     })
     response = await response.json()
-
+    console.log(response);
 
     h3Name.childNodes[0].textContent = response.name.split(" ")[0]
     h3Name.childNodes[2]. textContent = response.name.split(" ")[1]
@@ -36,6 +36,7 @@
         }
     })
     response = await response.json()
+    console.log(response);
     let info = response[0]
     telegram.textContent = info.Telegram
     phone.textContent = info.Phone
