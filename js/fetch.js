@@ -2,7 +2,7 @@
     let h3Name = document.querySelector("#h3Name")
     let dev = document.querySelector("#dev")
     let h1Name = document.querySelector("#h1Name")
-    let response = await fetch("http://localhost:1337/about-center",{
+    let response = await fetch("https://resume-muhammad.herokuapp.com/about-center",{
         headers:{
             "Content-type":"aplication/json"
         }
@@ -17,7 +17,7 @@
 })()
 
 ;(async () => {
-    let response = await fetch("http://localhost:1337/us",{
+    let response = await fetch("https://resume-muhammad.herokuapp.com/us",{
         headers:{
             "Content-type":"aplication/json"
         }
