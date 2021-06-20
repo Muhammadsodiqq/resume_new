@@ -17,9 +17,9 @@
     dev.textContent = response.dev
     h1Name.textContent = response.name
     bio1.textContent = response.biografy1
-    bio2.textContent = response.biografy2
+    bio2.textContent = response.biografy2 
 
-        profilphoto.src = "assets/img/software.jpg"
+        profilphoto.src = "assets/img/programming.jpg"
 
 })()
 
