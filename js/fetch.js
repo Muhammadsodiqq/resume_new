@@ -61,7 +61,7 @@
 
 ;(async () => {
 
-    let response = await fetch("http://localhost:1337/skills",{
+    let response = await fetch("https://resume-muhammad.herokuapp.com/skills",{
         headers:{
             "Content-type":"aplication/json"
         }
