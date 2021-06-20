@@ -19,7 +19,7 @@
     bio1.textContent = response.biografy1
     bio2.textContent = response.biografy2 
 
-        profilphoto.src = "assets/img/programming.jpg"
+        profilphoto.src = "assets/img/programming.png"
 
 })()
 
