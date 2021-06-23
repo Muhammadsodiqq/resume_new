@@ -90,7 +90,7 @@
 
 
 ;(async function () {
-    let response = await fetch("http://localhost:1337/experiences", {
+    let response = await fetch("https://resume-muhammad.herokuapp.com/experiences", {
         headers:{
             "Content-type":"aplication/json"
         }
@@ -130,7 +130,7 @@
 
 
 ;(async function () {
-    let response = await fetch("http://localhost:1337/educations", {
+    let response = await fetch("https://resume-muhammad.herokuapp.com/educations", {
         headers:{
             "Content-type":"aplication/json"
         }
@@ -168,7 +168,7 @@
 
 
 ;(async function () {
-    let response = await fetch("http://localhost:1337/portfolios", {
+    let response = await fetch("https://resume-muhammad.herokuapp.com/portfolios", {
         headers:{
             "Content-type":"aplication/json"
         }
