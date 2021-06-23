@@ -143,7 +143,6 @@
         let div3 = document.createElement("div")
         let h6 = document.createElement("h6")
         let span = document.createElement("span")
-        // let span2 = document.createElement("span")
         let p = document.createElement("p")
         div.classList.add("timeline-content")
         div2.classList.add("mb-1")
@@ -174,7 +173,6 @@
         }
     })
     response = await response.json()
-    console.log(response);
     for(let i of response) {
     
         let div = document.createElement("div")
